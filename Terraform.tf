@@ -1,5 +1,5 @@
 resource "aws_db_instance" "myDatabase" {
-    allocated_storage   = var.dbstorage
+    allocated_storage   = 10
    storage_type        = "gp2"
    identifier          = "rdstf"
    engine              = "mysql"
